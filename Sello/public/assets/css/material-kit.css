@@ -7468,6 +7468,9 @@ footer .pull-center {
   text-align: center;
   width: 100%;
   font: 300 16px/24px 'Helvetica Neue', 'Helvetica', Arial, sans-serif; }
+    
+        
+    }
 
 .video-uploader-progress .progress-spinner {
   position: absolute;
@@ -7560,13 +7563,6 @@ footer .pull-center {
   text-align: center;
   left: 0px;
   right: 0px; }
-
-    .section-scroll {
-        height: 200px;
-        width: 200px;
-        background-color: aqua;
-        
-    }
     
     
     
