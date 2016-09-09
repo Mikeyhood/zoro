@@ -23,5 +23,12 @@ res.sendFile("/public/home.html", {root:__dirname})
     
 })
 
+app.get("/test",function (req,res){
+    
+res.sendFile("/public/kylie-test.html", {root:__dirname})    
+    
+})
+
+
 //start the actual web server
 app.listen(port)

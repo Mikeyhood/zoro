@@ -17,6 +17,26 @@
 	<!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/material-kit.css" rel="stylesheet"/>
+    
+    
+    <!-- JS -->
+    
+    <script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+    
+    <!-- JS END -->
+    
+    
+    
 </head>
 
 <body style="background-color:#f3f5f7;">
@@ -32,8 +52,27 @@
           
       }
     
+ 
+.grow {
+  padding: 5px 5px 5px 5px;
+  border-radius:10px;
+    height: 100%; 
+    width: 100%; 
+    margin: 5px 1% 5px 1%; 
+    float: left; 
+    position: relative; 
+    transition:height 0.5s; 
+    -webkit-transition:height 0.5s; 
+    text-align: center;
+
+}
+.grow:hover {
+    height: 715px; /* This is the height on hover */
+}
+   
+ </style>  
     
-    </style>  
+
     
     
     
@@ -130,30 +169,28 @@
 
 					<div class="row">
 						<div class="col-md-4">
-							<div class="card card-plain card-blog">
+							
+                            
+                            <div class="card card-plain card-blog" style="margin-top:40px;">
 								<div class="card-image">
 									<a href="#pablo">
 										<img class="img" src="assets/img/examples/card-product1.jpg" />
 									</a>
-                                    <div class="content">
-                    							<label class="label label-primary">Spring 2016</label>
-                    							<a href="#pablo">
-                    								<h2 class="card-title">Stilleto</h2>
-                    							</a>
-                    						</div>
+                                    
 								</div>
 							</div>
+                            
+                           <div class="col-xs-2 follow">
+	                   <button class="btn btn-fab btn-rose" rel="tooltip" title="Create your first point-of-purchase experience!" style="margin-left:70px; margin-top:-85px;">
+                            <i class="material-icons">add</i>
+                        </button>
+	                </div>
+                            
 						</div>
 
-						
-
-						
+	
 </div>
-            
-                     
-                    
-                       
-					
+  
 
 				</div>
        
